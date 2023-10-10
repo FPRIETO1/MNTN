@@ -1,108 +1,150 @@
-ul{
-    display: flex;
-    list-style: none;
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: #0B1D26;
 }
 
 header{
     display: flex;
-}
-
-.imgportada{
+    flex-direction: row;
+    justify-content:space-between;    
+   /* width: 100%;*/
     position: relative;
-}
-
-#Hero{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 1920px;
-    height: 1200px;
-    background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
-}
-
-#VG{
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin-top: 50px;
+    margin-right: 50px;
     z-index: 2; 
-    width: 1920px;
-    height: 926px;
-    top: 768px;
+    width: 100%;
+    /*left: 80px;*/
 }
 
-#logo{
-    position: absolute;
-    width: 108px;
-    height: 24px;
+.logo{
+    margin-left: 65px; 
+    margin-top: 35px;
 }
 
-#MG{
-    position: absolute;
-    width: 1920px;
-    height: 1422px;
-    top: 464px;
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 35px;
+    /*width: 350px;
+    justify-content:space-around; 
+    background-color: #ff7fe1;*/
 }
 
-#Equipment{
-    position: absolute;
-    width: 90px;
-    height: 22px;
-    top: 2px;       
-    left: 739px;
-    font-family: 'Abhaya Libre', serif;
-    font-family: 'Aboreto', cursive;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0px;
-    text-align: left;
-    background: #FFFFFF;
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
 }
 
-#About{
-    position: absolute;
-    width: 75px;
-    height: 22px;
-    top: 2px;
-    left: 869px;
-    font-family: 'Abhaya Libre', serif;
-    font-family: 'Aboreto', cursive;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0px;
-    text-align: left;
-    background: #FFFFFF;
+.Account{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-right: 65px;
 }
 
-#Blog{
-    position: absolute;
-    width: 38px;
-    height: 22px;
-    top: 2px;
-    left: 984px;
-    font-family: 'Abhaya Libre', serif;
-    font-family: 'Aboreto', cursive;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0px;
-    text-align: left;
-    background: #FFFFFF;
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100;
+    position: relative;
+    margin-top: 350px;
+    z-index: 2;
 }
 
-#Account{
-    position: absolute;
-    width: 66px;
-    height: 21px;
-    top: 3px;
-    left: 1694px;
-    font-family: 'Abhaya Libre', serif;
-    font-family: 'Aboreto', cursive;
-    font-size: 17px;
-    line-height: 21px;
-    letter-spacing: 0px;
-    text-align: left;
-    background: #FFFFFF;
+.social ul li{
+    margin-left: 10px; 
+    margin-bottom: 30px;
+    list-style: none;
 }
+
+.guia ul li{
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.divisiones ul li{
+    margin-bottom: 30px;
+    margin-right: -90px;
+    list-style: none;
+    padding-bottom: 30px ;
+}
+
+.slider ul li{
+    margin-bottom: 0px;
+    margin-right: 65px;
+    
+    /*list-style: none;*/
+}
+
+.Base ul li{
+    position: relative;
+    margin-top: -900px;
+    z-index: 0;
+}
+
+.HG{
+    position: relative;
+    margin-top: -100px;
+    width: 100%;
+}   
+
+.MG{
+    margin-top: -400px;
+    width: 100%;
+}
+
+.VG{
+    margin-top: -724px;
+    width: 100%;
+}
+
+.HG, .MG, .VG{
+    position: relative;
+    z-index: 0;
+}
+
+.BG_HERO{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.copyr ul li{
+    margin-bottom: 30px;
+    margin-right: 90px;
+    list-style: none;
+}
+
+
+.More_blog ul li{
+    padding-bottom: 15px ;
+    color: white;     
+    font-size: 18px ;
+    list-style: none;
+}
+
+.More_MNTN ul li{
+   padding-bottom: 15px ;
+   margin-right: 50px;
+   color: white;
+   font-size: 18px ;
+   list-style: none;
+}
+
+.privacy{
+    margin-left: 35px;
+    margin-top: 40px;
+}
+
