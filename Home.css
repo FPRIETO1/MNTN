@@ -119,7 +119,10 @@ nav ul li{
 footer{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    margin-top: 200px;
+    margin-left: -30px;
+    margin-right: 90px;;
 }
 
 .copyr ul li{
@@ -201,14 +204,14 @@ footer{
           
 .muestra3e{
     margin-top: 50px;
-    margin-left: 60px; 
+    margin-left: 110px; 
 }
           
 .muestra3c{
     position: relative;
     margin-right: 20px;
     top: -95px;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 .muestra3f{
@@ -235,5 +238,16 @@ footer{
 }
 
 .ir02 a:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+.ir03 a{
+    margin-left:  330px;
+    color: white;
+    font-size: 20px ;
+    transition: background-color 0.3s; 
+}
+
+.ir03 a:hover {
     background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
 }
