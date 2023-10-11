@@ -18,7 +18,7 @@ header{
     /*left: 80px;*/
 }
 
-.logo{
+.Logo{
     margin-left: 65px; 
     margin-top: 35px;
 }
@@ -67,10 +67,11 @@ nav ul li{
 }
 
 .divisiones ul li{
+    width: 180px;
     margin-bottom: 30px;
-    margin-right: -90px;
+    margin-right: -490px;
     list-style: none;
-    padding-bottom: 30px ;
+    padding-bottom: 30px;
 }
 
 .slider ul li{
@@ -88,7 +89,7 @@ nav ul li{
 
 .HG{
     position: relative;
-    margin-top: -100px;
+    margin-top: -900px;
     width: 100%;
 }   
 
@@ -148,3 +149,91 @@ footer{
     margin-top: 40px;
 }
 
+.inicio1{
+    display: flex;
+    margin-left: 60px;
+}
+
+.muestra1e{
+    margin-top: 50px;
+    margin-left: 60px; 
+}
+
+.muestra1c{
+    position: relative;
+    margin-right: 20px ;
+    margin-left: 10%;
+    top: -95px;
+}
+
+.muestra1f{
+    margin-top: -650px;
+    margin-left: 50%;/* Coloca la imagen 3 a la derecha de la imagen 2 */
+}
+
+
+.inicio2{
+    display: flex;
+    margin-left: 60px;
+}
+      
+.muestra2f{
+    margin-top: 50px;
+    margin-left: 60px; 
+}
+      
+.muestra2e{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+      
+.muestra2c{
+    margin-top: 7%;
+    margin-right: 50px;
+    margin-left: -105px;
+}
+
+.inicio3{
+    display: flex;
+    margin-left: 60px;
+}
+          
+.muestra3e{
+    margin-top: 50px;
+    margin-left: 60px; 
+}
+          
+.muestra3c{
+    position: relative;
+    margin-right: 20px;
+    top: -95px;
+    margin-left: 200px;
+}
+
+.muestra3f{
+    margin-top: -650px;
+    margin-left: 50%;/* Coloca la imagen 3 a la derecha de la imagen 2 */
+}
+
+.ir01 a{
+    margin-left:  330px;
+    color: white;
+    font-size: 20px ;
+    transition: background-color 0.3s; 
+}
+
+.ir01 a:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+.ir02 a{
+    margin-left: 1150px;
+    color: white;
+    font-size: 20px ;
+    transition: background-color 0.3s; 
+}
+
+.ir02 a:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
+}
