@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./Assets/favicon.ico" type="image/x-icon">
+    <title>Account</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./Home.css">
-    <title>MNTN</title>
-</head>
-
+    <link rel="stylesheet" href="./Account.css">
 <body>
     <header>
 
         <div class="Logo">
-            <a href="#"><img src="./Assets/img/Logo.png" alt="MNTN"></a>
+            <a href="./Home.html"><img src="./Assets/img/Logo.png" alt="MNTN"></a>
         </div>
 
         <nav>
@@ -25,11 +24,12 @@
         
         <div class="Account">
             <span>
-                <a href="./Account.html"><img src="./Assets/img/Account.png" alt="Account"></a>
+                <img src="./Assets/img/Account.png" alt="Account">
             </span>
         </div>
 
     </header>
+
 
     <section class="content">  
 
@@ -45,7 +45,6 @@
             <ul>
                 <li><img src="./Assets/img/a_hiking_guide.png" alt="A Hiking Guide"></li>
                 <li><img src="./Assets/img/Be prepared for the Mountains and beyond!.png" alt="Be prepared"></li>
-                
             </ul>
         </div>
 
@@ -73,6 +72,7 @@
 
     </section>
 
+
     <section class="Base">
         <img class="HG" src="./Assets/img/HG.png" alt="HG">
         <img class="MG" src="./Assets/img/MG.png" alt="MG">
@@ -98,8 +98,8 @@
 
     <div class="ir01">
         <a href="#">scroll up</a>
-    </div>     
-     
+    </div>  
+    
     <section id="division2"class="inicio2">
 
         <div class="muestra2f">
@@ -140,12 +140,37 @@
         <a href="#">scroll up</a>
     </div>
 
+    <h1>
+        Check in.
+    </h1>    
+
+
+    <div class="container mt-5">
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+            </div>
+            <div class="form-group">
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" class="form-control" id="contrasena" placeholder="Ingresa tu contraseña">
+            </div>
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+        </form>
+    </div>
+    <div class="ir">
+        <a href="#">scroll up</a>
+    </div>
 
     <footer>
         <a name="down"></a>
         <div class="copyr">
             <ul>
-                <li><a href="#"><img src="./Assets/img/Logo.png" alt="MNTN"></a></li>
+                <li><a href="./Home.html"><img src="./Assets/img/Logo.png" alt="MNTN"></a></li>
                 <li><img src="./Assets/img/Get out there & discover your next slope, mountain & destination!.png" alt="Get out"></li>
             </ul>
             <img class="privacy" src="./Assets/img/Copyright 2019 MNTN, Inc. Terms & Privacy.png" alt="Copyright"></li>
@@ -171,6 +196,7 @@
             </ul>
         </div>
     </footer>
+    
     
 </body>
 </html>

@@ -1,0 +1,32 @@
+h1{
+    background-color: #071116;
+    color: white;
+    text-align: left;
+    font-size: 60px;
+    font-style: normal;
+    width: 100%; 
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.form-group:hover {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s;
+    color: black;
+}
+
+button:hover {
+    background-color: #007bff;
+    transition: background-color 0.3s;
+}
+
+.ir a:hover {
+    background-color: #bad03b; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+.ir a{
+    margin-left: 65px;
+    color: white;
+    font-size: 20px ;
+    transition: background-color 0.3s; 
+}

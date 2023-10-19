@@ -158,7 +158,7 @@ footer{
 }
 
 .muestra1e{
-    margin-top: 50px;
+    margin-top: 10px; /*deja muestra1 debajo de foto*/
     margin-left: 60px; 
 }
 
@@ -170,8 +170,10 @@ footer{
 }
 
 .muestra1f{
-    margin-top: -650px;
+   /* margin-top: -650px;*/
+    margin-top: -750px;
     margin-left: 50%;/* Coloca la imagen 3 a la derecha de la imagen 2 */
+    z-index: 3;
 }
 
 
@@ -219,35 +221,44 @@ footer{
     margin-left: 50%;/* Coloca la imagen 3 a la derecha de la imagen 2 */
 }
 
+
+.scrolldown{
+    margin-left: 0px;
+    color: white;
+    font-size: 20px ;
+    transition: background-color 0.3s;   
+}
+
 .ir01 a{
-    margin-left:  330px;
+    margin-top: -150px;
+    margin-left: 190px;
     color: white;
     font-size: 20px ;
     transition: background-color 0.3s; 
 }
 
 .ir01 a:hover {
-    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
+    background-color: #bad03b; /* Cambia el color de fondo al pasar el ratón por encima */
 }
 
 .ir02 a{
-    margin-left: 1150px;
+    margin-left: 1050px;
     color: white;
     font-size: 20px ;
     transition: background-color 0.3s; 
 }
 
 .ir02 a:hover {
-    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
+    background-color: #bad03b; /* Cambia el color de fondo al pasar el ratón por encima */
 }
 
 .ir03 a{
-    margin-left:  330px;
+    margin-left: 250px;
     color: white;
     font-size: 20px ;
     transition: background-color 0.3s; 
 }
 
 .ir03 a:hover {
-    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
+    background-color: #bad03b; /* Cambia el color de fondo al pasar el ratón por encima */
 }
