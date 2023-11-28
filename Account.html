@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./Home.css">
     <link rel="stylesheet" href="./Account.css">
+    <link rel="stylesheet" href="./estilos/styles.css">
+
 <body>
     <header>
 
@@ -16,12 +19,12 @@
 
         <nav>
             <ul>
-                <li><a href="./Equipment.html"><img src="./Assets/img/Equipment.png" alt="Equipment"></a></li> 
+                <li><a href="./Equipment.html"><img src="./Assets/img/Equipment.png" alt="Equipment"></a></li>
                 <li><a href="./AboutUs.html"><img src="./Assets/img/About us.png" alt="About us"></a></li>
                 <li><img src="./Assets/img/Blog.png" alt="Blog"></li>
             </ul>
         </nav>
-        
+
         <div class="Account">
             <span>
                 <img src="./Assets/img/Account.png" alt="Account">
@@ -31,13 +34,15 @@
     </header>
 
 
-    <section class="content">  
+    <section class="content">
 
         <div class="social">
             <ul>
                 <li><img src="./Assets/img/Follow us.png" alt="follow_us"></li>
-                <li><a href="https://www.instagram.com/" target="_blank"><img src="./Assets/img/instagram.png" alt="instagram"></a></li>
-                <li><a href="https://twitter.com/" target="_blank"><img src="./Assets/img/twitter.png" alt="twitter"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="./Assets/img/instagram.png"
+                            alt="instagram"></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><img src="./Assets/img/twitter.png"
+                            alt="twitter"></a></li>
             </ul>
         </div>
 
@@ -78,9 +83,9 @@
         <img class="MG" src="./Assets/img/MG.png" alt="MG">
         <img class="VG" src="./Assets/img/VG.png" alt="VG">
         <img class="BG_HERO" src="./Assets/img/BG Hero.png" alt="BG_HERO">
-    </section> 
+    </section>
 
-    <section id="division1"class="inicia1">
+    <section id="division1" class="inicia1">
 
         <div class="muestra1e">
             <img src="./Assets/img/01 Equipment.png" alt="01 equipment">
@@ -93,14 +98,14 @@
         <div class="muestra1f">
             <img src="./Assets/img/01.png" alt="01">
         </div>
-                
+
     </section>
 
     <div class="ir01">
         <a href="#">scroll up</a>
-    </div>  
-    
-    <section id="division2"class="inicio2">
+    </div>
+
+    <section id="division2" class="inicio2">
 
         <div class="muestra2f">
             <img src="./Assets/img/02.png" alt="02">
@@ -112,7 +117,7 @@
 
         <div class="muestra2c">
             <img src="./Assets/img/02 Content.png" alt="02 content">
-        </div>   
+        </div>
 
     </section>
 
@@ -120,7 +125,7 @@
         <a href="#">scroll up</a>
     </div>
 
-    <section id="division3"class="principal3">
+    <section id="division3" class="principal3">
 
         <div class="muestra3e">
             <img src="./Assets/img/03 Equipment.png" alt="03 equipment">
@@ -129,11 +134,11 @@
         <div class="muestra3c">
             <img src="./Assets/img/03 Content.png" alt="03 content">
         </div>
-        
+
         <div class="muestra3f">
             <img src="./Assets/img/03.png" alt="03">
-        </div>        
-        
+        </div>
+
     </section>
 
     <div class="ir03">
@@ -142,25 +147,29 @@
 
     <h1>
         Check in.
-    </h1>    
+    </h1>
 
 
     <div class="container mt-5">
-        <form>
+        <form id="formularioCheckIn">
             <div class="form-group">
                 <label for="nombre">Nombre:</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                <input type="text" class="form-control" id="nombre">
+                <span id="nombreError" class="error"></span>
             </div>
             <div class="form-group">
                 <label for="email">Correo electrónico:</label>
-                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+                <input type="email" class="form-control" id="email">
+                <span id="emailError" class="error"></span>
             </div>
             <div class="form-group">
                 <label for="contrasena">Contraseña:</label>
-                <input type="password" class="form-control" id="contrasena" placeholder="Ingresa tu contraseña">
+                <input type="password" class="form-control" id="contrasena">
+                <span id="contrasenaError" class="error"></span>
             </div>
             <button type="submit" class="btn btn-primary">Registrarse</button>
         </form>
+        <p id="mensajeRegistro"  class="parpadeo">Regristro OK</p>
     </div>
     <div class="ir">
         <a href="#">scroll up</a>
@@ -171,9 +180,10 @@
         <div class="copyr">
             <ul>
                 <li><a href="./Home.html"><img src="./Assets/img/Logo.png" alt="MNTN"></a></li>
-                <li><img src="./Assets/img/Get out there & discover your next slope, mountain & destination!.png" alt="Get out"></li>
+                <li><img src="./Assets/img/Get out there _ discover your next slope, mountain _ destination!.png"
+                        alt="Get out"></li>
             </ul>
-            <img class="privacy" src="./Assets/img/Copyright 2019 MNTN, Inc. Terms & Privacy.png" alt="Copyright"></li>
+            <img class="privacy" src="./Assets/img/Copyright 2019 MNTN, Inc. Terms _ Privacy.png" alt="Copyright"></li>
         </div>
 
         <div class="More_blog">
@@ -196,7 +206,12 @@
             </ul>
         </div>
     </footer>
-    
-    
+
+    <script src="scriptAccount.js"></script>
+    <script>
+        const formulario = new ValidadorFormulario('formularioCheckIn');
+    </script>
+
 </body>
+
 </html>

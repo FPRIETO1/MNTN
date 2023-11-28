@@ -9,6 +9,10 @@ h1{
     margin-top: 50px;
 }
 
+.form-group{
+    color:white;
+}
+
 .form-group:hover {
     background-color: #f8f9fa;
     transition: background-color 0.3s;

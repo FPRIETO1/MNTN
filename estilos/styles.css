@@ -1,0 +1,15 @@
+.error-input {
+    border: 3px solid  red;
+    display:block;
+    
+}
+
+
+/* Estilo básico para el mensajeRegistro */
+#mensajeRegistro {
+    color: white;
+    font-size: 20px;
+    display: none; /* Inicialmente oculto */
+    text-align: center;
+}
+

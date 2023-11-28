@@ -1,0 +1,22 @@
+{
+    "tarjetas": [
+        {
+            "imagen": "https://mountain.com/wp-content/uploads/2022/05/leadership-anna-mcmurphy-720x720-1.jpg" ,
+            "link": "https://www.linkedin.com/in/anna-mcmurphy/",
+            "nombre": "Anna McMurphy",
+            "cargo": "Chief People Officer"
+        },
+        {
+            "imagen": "https://mountain.com/wp-content/uploads/2022/05/leadership-ryan-reynolds-720x720-1.jpg" ,
+            "link": "https://www.linkedin.com/in/vancityreynolds/",
+            "nombre": "Ryan Reynolds",
+            "cargo": "Chief Creative Officer"
+        },
+        {
+            "imagen": "https://mountain.com/wp-content/uploads/2022/05/leadership-mark-douglas-720x720-1.jpg" ,
+            "link": "https://www.linkedin.com/in/teachmehow2douglas/",
+            "nombre": "Mark Douglas",
+            "cargo": "President & CEO"
+        }
+    ]
+}
