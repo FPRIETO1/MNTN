@@ -1,2 +1,0 @@
-# MNTN
-Practica pagina web
